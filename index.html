@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Shop</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="d-flex">
+            <div class="col-4 col-lg-2">
+                <img src="./assets/images/logo.png" alt="" class="logo">
+            </div>
+            <div class="d-none d-lg-block col-7">
+                <ul class="navbar d-flex justify-content-evenly">
+                    <li class="nav-item"><a href="#">Men</a></li>
+                    <li class="nav-item"><a href="#">Women</a></li>
+                    <li class="nav-item"><a href="#">Kids</a></li>
+                    <li class="nav-item"><a href="#">Sale</a></li>
+                </ul>
+            </div>
+            <div class="col-8 col-lg-3 d-flex align-items-center justify-content-end">
+                <button class="d-flex">
+                    <p id="counter">0</p><img src="./assets/images/icons8-shopping-cart-64.png" alt="" id="buy-icon"
+                        class="header-icon">
+                </button>
+                <button><img src="./assets/images/icons8-moon-and-stars-64.png" alt="" id="dark-icon"
+                        class="header-icon"></button>
+                <button><img src="./assets/images/icons8-vaporwave-64.png" alt="" id="light-icon"
+                        class="header-icon"></button>
+                <button><a href="index.html"><img src="./assets/images/icons8-home-page-64.png" alt=""
+                            class="header-icon d-none d-lg-block"></a></button>
+                <button id="menu-btn"><img src="./assets/images/icons8-pull-down-64.png" alt="" id="menu-icon"
+                        class="header-icon d-lg-none"></button>
+
+
+            </div>
+
+        </header>
+        <div id="mobile-nav" class="d-lg-none">
+            <button id="close-btn"><img src="./assets/images/icons8-delete.svg" alt="" id="close-icon"
+                    class="header-icon" style="margin-left:80vw;"></button>
+            <ul class="mobile-navbar">
+                <a href="index.html">
+                    <li class="mobile-nav-item">Home</li>
+                </a>
+                <a href="#">
+                    <li class="mobile-nav-item">Men</li>
+                </a>
+                <a href="#">
+                    <li class="mobile-nav-item"><a href="#">Women</a></li>
+                </a>
+                <a href="#">
+                    <li class="mobile-nav-item"><a href="#">Kids</a></li>
+                </a>
+                <a href="#">
+                    <li class="mobile-nav-item"><a href="#">Sale</a></li>
+                </a>
+            </ul>
+        </div>
+        <main>
+
+            <div class="landing-section d-flex row">
+                <div class="col-12 col-md-6 landing-txt">
+                    <h1>JUST<br>DO<br>IT</h1>
+                    <br><br>
+                    <p>With all of the biggest brands in fashion, you'll amazed to find the best sneakers.</p>
+
+                </div>
+                <div class="col-12 col-md-6 d-flex"><img src="./assets/images/landing-img.png" alt=""
+                        class="landing-img"></div>
+            </div>
+            <div class="cart-section d-flex row justify-content-center">
+                <h2>Categories</h2>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/for-women.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">For Women</h3>
+                    <button class="cart-button">Shop now</button>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/for-man.png " alt="" class="cart-image col-12">
+                    <h3 class="cart-text">For Men</h3>
+                    <button class="cart-button">Shop now</button>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/for-kids.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">For Kids</h3>
+                    <button class="cart-button">Shop now</button>
+                </div>
+                <h2>Brands</h2>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/pima-logo.png" alt="" class="cart-img col-12">
+                    <h3 class="cart-text">Puma</h3>
+                    <button class="cart-button">Shop now</button>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/adidas-logo.png" alt="" class="cart-img col-12">
+                    <h3 class="cart-text">Adidas</h3>
+                    <button class="cart-button">Shop now</button>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/nike-logo.png" alt="" class="cart-img col-12">
+                    <h3 class="cart-text">Nike</h3>
+                    <button class="cart-button">Shop now</button>
+                </div>
+                <button class="more-button col-12 p-3">More</button>
+                <h2>Sales</h2>
+
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img1.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$74.99</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$80.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img2.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$59.00</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$65.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img3.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$73.98</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$85.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img4.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$74.99</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$80.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img5.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$74.99</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$80.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img6.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$74.99</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$80.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img7.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$74.99</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$80.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img8.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$74.99</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$80.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <div class="cart col-12 col-lg-4">
+                    <img src="./assets/images/img9.png" alt="" class="cart-image col-12">
+                    <h3 class="cart-text">$74.99</h3>
+                    <div class="d-flex">
+                        <p class="col-9 price">$80.00</p>
+                        <button class="add-button col-3"><img src="./assets/images/icons8-add-shopping-cart-64.png"
+                                alt=""></button>
+                    </div>
+                </div>
+                <button class="more-button col-12 p-3">More</button>
+
+            </div>
+            <div class="information-section d-flex row justify-content-center">
+                <div class="information-text col-11 col-lg-5">
+                    <h5>WORKOUT CLOTHES, FOR ANY SPORT</h5>
+                    <p>
+                        adidas designs for athletes of all kinds. Creators who love to change the game. People who
+                        challenge conventions, break the rules, and define new ones. Then break them all over again. We
+                        design sports apparel that gets you moving, winning, and living life to the fullest. We create
+                        bras and tights for female athletes who play just as hard as the men. From low to high support.
+                        Maximum comfort. We design, innovate and iterate. We test new technologies in action. On the
+                        field, the track, the court, and in the pool. We’re inspired by retro workout clothes, creating
+                        new streetwear essentials. From NMD and Ozweego to our Firebird tracksuits. From Stan Smith to
+                        Superstar. Classic sports models are brought back to life on the streets and the stages around
+                        the world.
+
+                        Through our collections we blur the borders between high fashion and high performance. Like our
+                        adidas by Stella McCartney athletic clothing collection – designed to look the part inside and
+                        outside of the gym. Or some of our adidas Originals lifestyle pieces, that can be worn as sports
+                        apparel too. Our lives are constantly changing. Becoming more and more versatile. And adidas
+                        designs with that in mind.
+                    </p>
+                </div>
+                <div class="information-text col-11 col-lg-5">
+                    <h5>STORIES, STYLE, AND SPORTING GOODS AT ADIDAS, SINCE 1949</h5>
+                    <p>Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They
+                        bring us together. Athletes inspire us. They help us to get up and get moving. And sporting
+                        goods featuring the latest technologies help us beat our personal best. adidas is home to the
+                        runner, the basketball player, the soccer kid, the fitness enthusiast, the yogi. And even the
+                        weekend hiker looking to escape the city. The 3-Stripes are everywhere and anywhere. In sports.
+                        In music. On life’s stages. Before the whistle blows, during the race, and at the finish line.
+                        We’re here to support creators. To improve their game. To live their lives. And to change the
+                        world.
+
+                        adidas is about more than sportswear and workout clothes. We partner with the best in the
+                        industry to co-create. This way we offer our fans the sporting goods, style and clothing that
+                        match the athletic needs, while keeping sustainability in mind. We’re here to support creators.
+                        Improve their game. Create change. And we think about the impact we have on our world.</p>
+
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="d-flex row">
+            <div class=" col-12 col-lg-4">
+            <img src="./assets/images/logo.png" alt="" class="footer-logo">
+        </div>
+            <ul class="col-12 col-lg-4 "><h5>Get help</h5>
+                <li class="footer-item"><a href="#">Order Status</a></li>
+                <li class="footer-item"><a href="#">Shipping and Delivery</a></li>
+                <li class="footer-item"><a href="#">Returns</a></li>
+                <li class="footer-item"><a href="#">Payment Options</a></li>
+                <li class="footer-item"><a href="#">Contact Us</a></li>
+            </ul>
+            <ul class="col-12 col-lg-4 "><h5>About us</h5>
+                <li class="footer-item"><a href="#">News</a></li>
+                <li class="footer-item"><a href="#">Careers</a></li>
+                <li class="footer-item"><a href="#">Investors</a></li>
+                <li class="footer-item"><a href="#">Purpose</a></li>
+                <li class="footer-item"><a href="#">Sustainability</a></li>
+            </ul>
+        </footer>
+
+
+
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
